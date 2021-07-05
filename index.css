@@ -1,0 +1,39 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    color: gray;
+}
+.orange-color{
+    color: orange;
+}
+
+
+.felxible-container{
+  display: flex;
+  margin-left: 4%;
+  margin-right: 4%;
+  margin-bottom: 100px;
+} 
+.half-width{
+    width: 50%;
+}
+
+.top-text p{
+    margin-bottom: 30px;
+} 
+
+
+.link-button{ 
+    width: 30px;
+    background-image: linear-gradient(to right, indigo,gray) ;
+    padding: 10px 30px ;
+    text-decoration: none;
+    color:white;
+    border-radius: 30px; 
+}
+
+#top-image img{
+    width: 50%;
+    margin-left: 30%;
+   
+}
