@@ -1,17 +1,17 @@
 body{
     font-family: 'Roboto', sans-serif;
     margin: 0;
-    color: gray;
+    color: grey;
 }
 .orange-color{
     color: orange;
 }
-
+h1{
+    font-size: xx-large;
+}
 
 .flexible-container{
   display: flex;
-  margin-left: 4%;
-  margin-right: 4%;
   margin-bottom: 100px;
 } 
 .half-width{
@@ -22,18 +22,48 @@ body{
     margin-bottom: 30px;
 } 
 
+.top-text{
+    margin-left:4% ;
+    margin-top: 8%;
+}
+
 
 .link-button{ 
     width: 30px;
-    background-image: linear-gradient(to right, indigo,gray) ;
+    background-image: linear-gradient(to right, indigo,cyan) ;
     padding: 10px 30px ;
     text-decoration: none;
     color:white;
-    border-radius: 30px; 
+    border-radius: 20px; 
+    box-shadow: 5px 5px 20px gray;
 }
 
 #top-image img{
     width: 50%;
     margin-left: 30%;
+    margin-top: 10%;
    
 }
+#about-me-image img{
+    width: 36%;
+    margin-left: 15%;
+    padding-top: 60px;
+}
+
+.about-text {
+    margin-right: 10%;
+    line-height: 30px;
+    padding-top: 60px;
+}
+
+.about-text p{
+    margin-bottom: 50px;
+}
+
+.about-bg{ 
+    height: 408px;   
+    background-image: url(shapes/Frame58.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+  
+} 
