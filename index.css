@@ -37,6 +37,9 @@ h1{
     border-radius: 20px; 
     box-shadow: 5px 5px 20px gray;
 }
+.link-button:hover{
+    color: black;
+}
 
 #top-image img{
     width: 50%;
